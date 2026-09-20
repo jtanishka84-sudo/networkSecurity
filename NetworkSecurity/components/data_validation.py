@@ -49,7 +49,7 @@ class DataValidation:
                 else:
                     is_found=True
                     status=False
-                    report.update({column:{
+                report.update({column:{
                     "p_value":float(is_same_dist.pvalue),
                     "drift_status":is_found
                     }})
